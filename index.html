@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>MoodMotion | We Create, You Do!</title>
+        <link href="styles/style.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+    <body>
+        <nav class="nav-header">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1 class="nav-title"><strong>MoodMotion</strong></h1>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="hero-banner">
+            <img src="https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2021-12/211208-working-out-stock-mn-1310-55e1c7.jpg" alt="Woman Working Out" class="hero-img"/>
+            <div class="hero-text">
+                <h1>We Create, You Do</h1>
+                <p>Movement That Meets You Where You Are</p>
+              </div>
+        </div>
+
+        <main class="main-container">
+            <section class="mood-section">
+                <h2 class="motto">Let the <i>Mood</i> set the <i>Motion</i></h2>
+                <h3 class="section-title">How are you feeling?</h3>
+                <div class="mood-grid">
+                    <button class="mood-card" data-mood="energetic">
+                        <i class="fa-solid fa-bolt mood-icon"></i>
+                        <span class="mood-label">Energetic</span>
+                    </button>
+                    <button class="mood-card" data-mood="tired">
+                        <i class="fa-solid fa-bed mood-icon"></i>
+                        <span class="mood-label">Tired</span>
+                    </button>
+                    <button class="mood-card" data-mood="sad">
+                        <i class="fa-solid fa-face-sad-tear mood-icon"></i>
+                        <span class="mood-label">Sad</span>
+                    </button>
+                    <button class="mood-card" data-mood="neutral">
+                        <i class="fa-solid fa-face-meh mood-icon"></i>
+                        <span class="mood-label">Neutral</span>
+                    </button>
+                </div>
+
+                <h3 class="section-title">How much time do you have?</h3>
+                <div class="time">
+                    <button class="time-button" data-time="15">
+                        <span class="time-text">15 mins</span>
+                    </button>
+                    <button class="time-button" data-time="30">
+                        <span class="time-text">30 mins</span>
+                    </button>
+                    <button class="time-button" data-time="45">
+                        <span class="time-text">45 mins</span>
+                    </button>
+                    <button class="time-button" data-time="60">
+                        <span class="time-text">60+ mins</span>
+                    </button>
+                </div>
+
+                <h3 class="section-title">Pick an Intensity level!</h3>
+                <div class="intensity">
+                    <button class="intensity-button" data-intensity="beginner">
+                        <i class="fa-solid fa-circle intensity-icon"></i>
+                        <span class="intensity-text">Beginner</span>
+                    </button>
+                    <button class="intensity-button" data-intensity="intermediate">
+                        <i class="fa-solid fa-circle intensity-icon"></i>
+                        <span class="intensity-text">Intermediate</span>
+                    </button>
+                    <button class="intensity-button" data-intensity="advanced">
+                        <i class="fa-solid fa-circle intensity-icon"></i>
+                        <span class="intensity-text">Advanced</span>
+                    </button>
+                </div>
+                <button class="workout-button">Work Out!</button>
+            </section>
+        </main>
+        <script src="scripts/main.js"></script>
+    </body>
+</html>
